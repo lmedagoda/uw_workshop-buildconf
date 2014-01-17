@@ -1,0 +1,53 @@
+package_sets:
+   - type: git
+     url: $GITORIOUS_ROOT/rock-toolchain/package_set.git
+     push_to: $GITORIOUS_PUSH_ROOT/rock-toolchain/package_set.git
+   - type: git
+     url: $GITORIOUS_ROOT/rock/package_set.git
+     push_to: $GITORIOUS_PUSH_ROOT/rock/package_set.git
+   - type: git
+     url: $SPACEGIT_ROOT/cuslam/package_set.git
+     push_to: $SPACEGIT_PUSH_ROOT/cuslam/package_set.git
+   - type: git
+     url: $SPACEGIT_ROOT/rock-dfki/package_set.git
+     push_to: $SPACEGIT_PUSH_ROOT/rock-dfki/package_set.git
+
+layout:
+#  - dfki.cuslam
+#  - rock.toolchain
+  - rock.base
+
+#  - drivers/xsens_imu
+#  - drivers/fog_kvh
+#  - drivers/bms
+#  - drivers/orogen/fog_kvh
+#  - drivers/orogen/xsens_imu
+#  - drivers/orogen/controldev
+#  - drivers/orogen/hbridge
+#  - drivers/orogen/canbus
+#  - drivers/orogen/dvl_teledyne
+#  - drivers/motorcom
+#  - drivers/orogen/motorcom
+  - drivers/orogen/sonar_tritech
+#  - drivers/mb500
+#  - drivers/orogen/gps
+
+  - gui/vizkit
+  - gui/rock_widget_collection
+
+  - tools/image_preprocessing
+  - image_processing/visual_odometry
+  - image_processing/orogen/visual_odometry
+  - image_processing/stereo 
+
+#  - dagon/orogen/visual_odometry_deployment
+#  - dagon/orogen/auv_control
+#  - dagon/orogen/lbl_frame
+  - slam/quater_ikf
+  - slam/quater_ukf
+  - slam/pose_ekf
+  - slam/orogen/orientation_estimator
+  - slam/g2o
+
+exclude_packages:
+  - ocl
