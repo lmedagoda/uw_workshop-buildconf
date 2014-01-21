@@ -11,6 +11,9 @@ package_sets:
    - type: git
      url: $SPACEGIT_ROOT/rock-dfki/package_set.git
      push_to: $SPACEGIT_PUSH_ROOT/rock-dfki/package_set.git
+   - spacegit: compilerspeedup/package_set
+     branch: icecc
+
 
 layout:
 #  - dfki.cuslam
