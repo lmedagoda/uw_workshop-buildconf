@@ -20,6 +20,10 @@ layout:
 
   - drivers/orogen/sonar_tritech
   - drivers/orogen/imu_kvh_1750
+  - drivers/orogen/pressure_digiquartz
+  - drivers/orogen/thruster_enitech
+  - drivers/orogen/motor_maxon
+  - drivers/orogen/usbl_evologics
 
   - gui/vizkit
   - gui/rock_widget_collection
