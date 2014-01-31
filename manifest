@@ -24,6 +24,7 @@ layout:
   - drivers/orogen/thruster_enitech
   - drivers/orogen/motor_maxon
   - drivers/orogen/usbl_evologics
+  - drivers/eFuse
 
   - gui/vizkit
   - gui/rock_widget_collection
@@ -39,22 +40,11 @@ layout:
   - slam/orogen/orientation_estimator
   - slam/g2o
 
-#  - dfki.cuslam
-#  - drivers/xsens_imu
-#  - drivers/fog_kvh
+  - control/orogen/auv_control
+
 #  - drivers/bms
-#  - drivers/orogen/fog_kvh
-#  - drivers/orogen/xsens_imu
 #  - drivers/orogen/controldev
-#  - drivers/orogen/hbridge
-#  - drivers/orogen/canbus
-#  - drivers/orogen/dvl_teledyne
-#  - drivers/motorcom
-#  - drivers/orogen/motorcom
-#  - drivers/mb500
 #  - drivers/orogen/gps
 #  - dagon/orogen/visual_odometry_deployment
-#  - dagon/orogen/auv_control
-#  - dagon/orogen/lbl_frame
 exclude_packages:
   - ocl
