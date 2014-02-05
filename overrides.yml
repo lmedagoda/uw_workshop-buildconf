@@ -1,3 +1,6 @@
 overrides:
 #    - image_processing/stereo:
 #      branch: visual_odometry_test
+     - control/orogen/auv_control:
+       branch: final_cleanup
+
