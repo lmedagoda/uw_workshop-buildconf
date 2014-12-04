@@ -41,6 +41,8 @@ layout:
   - slam/g2o
 
   - control/orogen/auv_control
+  - eurex/servos_leng
+  - eurex/orogen/servos_leng
 
 #  - drivers/bms
 #  - drivers/orogen/controldev
