@@ -3,4 +3,6 @@ overrides:
 #      branch: visual_odometry_test
      - control/orogen/auv_control:
        branch: final_cleanup
+     - control/orogen/rawControlCommandConverter:
+       branch: eurex
 
