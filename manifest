@@ -42,6 +42,7 @@ layout:
   - slam/g2o
 
   - control/orogen/auv_control
+  - control/orogen/rawControlCommandConverter
   - eurex/servos_leng
   - eurex/orogen/servos_leng
 
