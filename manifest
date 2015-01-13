@@ -24,6 +24,7 @@ layout:
   - drivers/orogen/thruster_enitech
   - drivers/orogen/motor_maxon
   - drivers/orogen/usbl_evologics
+  - drivers/dynamixel
 #  - drivers/eFuse
 
   - gui/vizkit
