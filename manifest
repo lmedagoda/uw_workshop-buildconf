@@ -17,6 +17,7 @@ package_sets:
 
 layout:
   - rock.base
+  - leng_scripts
 
   - drivers/orogen/sonar_tritech
   - drivers/orogen/imu_kvh_1750
@@ -45,6 +46,7 @@ layout:
   - control/orogen/rawControlCommandConverter
   - eurex/servos_leng
   - eurex/orogen/servos_leng
+  - eurex/orogen/leng
   - eurex/maxon_dynamixel
 
 #  - drivers/bms
