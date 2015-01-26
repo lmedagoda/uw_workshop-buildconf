@@ -45,6 +45,7 @@ layout:
   - control/orogen/rawControlCommandConverter
   - eurex/servos_leng
   - eurex/orogen/servos_leng
+  - eurex/maxon_dynamixel
 
 #  - drivers/bms
 #  - drivers/orogen/controldev
