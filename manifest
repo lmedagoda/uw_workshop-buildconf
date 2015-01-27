@@ -49,6 +49,8 @@ layout:
   - eurex/orogen/leng
   - eurex/maxon_dynamixel
 
+  - drivers/dvl_seapilot
+  - drivers/orogen/dvl_seapilot
 #  - drivers/bms
 #  - drivers/orogen/controldev
 #  - drivers/orogen/gps
