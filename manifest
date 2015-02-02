@@ -19,6 +19,8 @@ layout:
   - rock.base
   - leng_scripts
 
+  - drivers/orogen/dvl_seapilot
+  - drivers/dvl_seapilot
   - drivers/orogen/sonar_tritech
   - drivers/orogen/imu_kvh_1750
   - drivers/orogen/pressure_digiquartz
@@ -43,7 +45,7 @@ layout:
   - slam/g2o
 
   - control/orogen/auv_control
-  - control/orogen/rawControlCommandConverter
+#  - control/orogen/rawControlCommandConverter
   - eurex/servos_leng
   - eurex/orogen/servos_leng
   - eurex/orogen/leng
