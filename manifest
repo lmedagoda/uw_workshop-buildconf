@@ -38,6 +38,7 @@ layout:
   - image_processing/orogen/visual_odometry
   - image_processing/orogen/frame_sync
   - image_processing/stereo 
+  - image_processing/orogen/aruco
 
   - slam/quater_ikf
   - slam/quater_ukf
