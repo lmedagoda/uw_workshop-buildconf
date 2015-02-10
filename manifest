@@ -36,6 +36,7 @@ layout:
   - tools/image_preprocessing
   - image_processing/visual_odometry
   - image_processing/orogen/visual_odometry
+  - image_processing/orogen/frame_sync
   - image_processing/stereo 
 
   - slam/quater_ikf
