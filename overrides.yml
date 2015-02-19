@@ -5,4 +5,5 @@ overrides:
        branch: final_cleanup
      - control/orogen/rawControlCommandConverter:
        branch: eurex
-
+     - drivers/orogen/imu_kvh_1750:
+       branch: remove_filter
