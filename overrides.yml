@@ -7,3 +7,5 @@ overrides:
        branch: eurex
      - drivers/orogen/imu_kvh_1750:
        branch: remove_filter
+     - slam/orogen/orientation_estimator:
+       branch: rewrite_ikf_estimator
