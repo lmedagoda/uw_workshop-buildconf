@@ -1,10 +1,10 @@
 package_sets:
    - type: git
-     url: $GITORIOUS_ROOT/rock-toolchain/package_set.git
-     push_to: $GITORIOUS_PUSH_ROOT/rock-toolchain/package_set.git
+     url: $GITHUB_ROOT/rock-toolchain/package_set.git
+     push_to: $GITHUB_PUSH_ROOT/rock-toolchain/package_set.git
    - type: git
-     url: $GITORIOUS_ROOT/rock/package_set.git
-     push_to: $GITORIOUS_PUSH_ROOT/rock/package_set.git
+     url: $GITHUB_ROOT/rock/package_set.git
+     push_to: $GITHUB_PUSH_ROOT/rock/package_set.git
    - type: git
      url: $SPACEGIT_ROOT/cuslam/package_set.git
      push_to: $SPACEGIT_PUSH_ROOT/cuslam/package_set.git
