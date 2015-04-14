@@ -3,14 +3,14 @@ package_sets:
    - github: rock-core/rock-package_set
    - github: rock-simulation/package_set
 #   - github: auv-avalon/package_set
-   - spacegit: eurex/package_set
+   - spacegit: cuslam/package_set
    - spacegit: rock-dfki/package_set
    - spacegit: compilerspeedup/package_set
 
 
 
 layout:
-  - rock.base
+  - rock.core
   - leng_scripts
 
   - drivers/orogen/dvl_seapilot
