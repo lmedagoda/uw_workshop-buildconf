@@ -4,6 +4,7 @@ package_sets:
    - github: rock-simulation/package_set
 #   - github: auv-avalon/package_set
    - spacegit: cuslam/package_set
+   - spacegit: eurex/package_set
    - spacegit: rock-dfki/package_set
    - spacegit: compilerspeedup/package_set
 
@@ -54,5 +55,9 @@ layout:
 #  - drivers/orogen/controldev
 #  - drivers/orogen/gps
 #  - dagon/orogen/visual_odometry_deployment
+  - drivers/efuse_board
+  - drivers/orogen/efuse_board
+
 exclude_packages:
   - ocl
+  
