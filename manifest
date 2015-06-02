@@ -57,6 +57,7 @@ layout:
 #  - dagon/orogen/visual_odometry_deployment
   - drivers/efuse_board
   - drivers/orogen/efuse_board
+  - gui/efuse_board_widget
 
 exclude_packages:
   - ocl
