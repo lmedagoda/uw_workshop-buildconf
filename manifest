@@ -23,7 +23,6 @@ layout:
   - drivers/orogen/motor_maxon
   - drivers/orogen/usbl_evologics
   - drivers/dynamixel
-#  - drivers/eFuse
 
   - gui/vizkit
   - gui/rock_widget_collection
@@ -55,9 +54,9 @@ layout:
 #  - drivers/orogen/controldev
 #  - drivers/orogen/gps
 #  - dagon/orogen/visual_odometry_deployment
-  - drivers/efuse_board
-  - drivers/orogen/efuse_board
-  - gui/efuse_board_widget
+  - drivers/efuse_board_eurex
+  - drivers/orogen/efuse_board_eurex
+  - gui/widget-efuse_board
 
 exclude_packages:
   - ocl
