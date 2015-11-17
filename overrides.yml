@@ -2,11 +2,9 @@ overrides:
 #    - image_processing/stereo:
 #      branch: visual_odometry_test
      - control/orogen/auv_control:
-       branch: final_cleanup
+       branch: command_injection
      - control/orogen/rawControlCommandConverter:
        branch: eurex
-     - drivers/orogen/imu_kvh_1750:
-       branch: remove_filter
      - slam/orogen/orientation_estimator:
        branch: rewrite_ikf_estimator
      - drivers/orogen/controldev:
@@ -19,4 +17,7 @@ overrides:
        url: git@github.com:Nikpec/drivers-controldev.git
        push_to: git@github.com:Nikpec/drivers-controldev.git
        branch: mc20
-
+     - drivers/usbl_evlogics:
+       branch: eurex_testing
+     - drivers/orogen/usbl_evlogics:
+       branch: eurex_testing

@@ -23,6 +23,8 @@ layout:
   - drivers/orogen/motor_maxon
   - drivers/orogen/usbl_evologics
   - drivers/dynamixel
+  - drivers/orogen/transformer
+#  - drivers/eFuse
 
   - gui/vizkit
   - gui/rock_widget_collection
