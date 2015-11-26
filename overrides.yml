@@ -11,3 +11,9 @@ overrides:
        branch: eurex_testing
      - drivers/orogen/usbl_evlogics:
        branch: eurex_testing
+     - control/orogen/uwv_motion_model:
+       branch: leng
+     - control/uwv_dynamic_model:
+       branch: leng
+
+
