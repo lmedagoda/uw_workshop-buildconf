@@ -7,6 +7,16 @@ overrides:
        branch: eurex
      - slam/orogen/orientation_estimator:
        branch: rewrite_ikf_estimator
+     - drivers/orogen/controldev:
+       type: git
+       url: git@github.com:Nikpec/drivers-orogen-controldev.git
+       push_to: git@github.com:Nikpec/drivers-orogen-controldev.git
+       branch: mc20
+     - drivers/controldev:
+       type: git
+       url: git@github.com:Nikpec/drivers-controldev.git
+       push_to: git@github.com:Nikpec/drivers-controldev.git
+       branch: mc20
      - drivers/usbl_evlogics:
        branch: eurex_testing
      - drivers/orogen/usbl_evlogics:
