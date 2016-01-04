@@ -27,4 +27,5 @@ overrides:
        branch: leng
      - slam/mtk:
        branch: master
-
+     - control/motor_controller:
+       branch: master
