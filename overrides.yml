@@ -29,3 +29,9 @@ overrides:
        branch: master
      - control/motor_controller:
        branch: master
+     - control/orogen/uwv_motion_model:
+       type: git
+       url: git@git.hb.dfki.de:fzachert/orogen-uwv_motion_model.git
+       push_to: git@git.hb.dfki.de:fzachert/orogen-uwv_motion_model.git
+       branch: leng
+
