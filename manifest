@@ -14,53 +14,20 @@ layout:
   - rock.core
   - leng_scripts
 
-  - drivers/orogen/dvl_seapilot
-  - drivers/dvl_seapilot
-  - drivers/orogen/sonar_tritech
-  - drivers/orogen/imu_kvh_1750
-  - drivers/orogen/pressure_digiquartz
-  - drivers/orogen/thruster_enitech
-  - drivers/orogen/motor_maxon
-  - drivers/orogen/usbl_evologics
-  - drivers/dynamixel
-  - drivers/orogen/transformer
-#  - drivers/eFuse
-
   - gui/vizkit
   - gui/rock_widget_collection
+  - gui/widget-efuse_board  
 
-  - tools/image_preprocessing
-  - image_processing/visual_odometry
-  - image_processing/orogen/visual_odometry
-  - image_processing/orogen/frame_sync
-  - image_processing/stereo 
-  - image_processing/orogen/aruco
+#  - tools/image_preprocessing
+#  - image_processing/visual_odometry
+#  - image_processing/orogen/visual_odometry
+#  - image_processing/orogen/frame_sync
+#  - image_processing/stereo 
+#  - slam/g2o
+#  - image_processing/orogen/aruco
 
-  - slam/quater_ikf
-  - slam/quater_ukf
-  - slam/pose_ekf
-  - slam/orogen/orientation_estimator
-  - slam/orogen/pose_estimation
-  - slam/g2o
-
-  - control/orogen/auv_control
-#  - control/orogen/rawControlCommandConverter
-  - eurex/servos_leng
-  - eurex/orogen/servos_leng
   - eurex/orogen/leng
-  - eurex/maxon_dynamixel
-  - eurex/orogen/leng_docking
   - eurex/orogen/leng_control
-
-  - drivers/dvl_seapilot
-  - drivers/orogen/dvl_seapilot
-#  - drivers/bms
-#  - drivers/orogen/controldev
-#  - drivers/orogen/gps
-#  - dagon/orogen/visual_odometry_deployment
-  - drivers/efuse_board_eurex
-  - drivers/orogen/efuse_board_eurex
-  - gui/widget-efuse_board
 
 exclude_packages:
   - ocl

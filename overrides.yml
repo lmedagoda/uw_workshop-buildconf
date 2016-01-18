@@ -17,7 +17,21 @@ overrides:
        url: git@github.com:Nikpec/drivers-controldev.git
        push_to: git@github.com:Nikpec/drivers-controldev.git
        branch: mc20
-     - drivers/usbl_evlogics:
+     - drivers/usbl_evologics:
        branch: eurex_testing
-     - drivers/orogen/usbl_evlogics:
+     - drivers/orogen/usbl_evologics:
        branch: eurex_testing
+     - control/orogen/uwv_motion_model:
+       branch: leng
+     - control/uwv_dynamic_model:
+       branch: leng
+     - slam/mtk:
+       branch: master
+     - control/motor_controller:
+       branch: master
+     - control/orogen/uwv_motion_model:
+       type: git
+       url: git@git.hb.dfki.de:fzachert/orogen-uwv_motion_model.git
+       push_to: git@git.hb.dfki.de:fzachert/orogen-uwv_motion_model.git
+       branch: leng
+
