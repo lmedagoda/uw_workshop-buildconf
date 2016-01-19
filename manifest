@@ -27,6 +27,7 @@ layout:
 #  - image_processing/orogen/aruco
 
   - eurex/orogen/leng
+  - eurex/orogen/leng_gliding
 
 exclude_packages:
   - ocl
