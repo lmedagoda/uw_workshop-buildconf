@@ -28,6 +28,7 @@ layout:
 
   - eurex/orogen/leng
   - eurex/orogen/leng_gliding
+  - eurex/orogen/leng_control
 
 exclude_packages:
   - ocl
