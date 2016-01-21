@@ -28,6 +28,8 @@ layout:
 
   - eurex/orogen/leng
   - eurex/orogen/leng_control
+  - eurex/orogen/marker_timeout
+  - eurex/orogen/usbl_watchdog
 
 exclude_packages:
   - ocl
