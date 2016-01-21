@@ -27,6 +27,7 @@ layout:
 #  - image_processing/orogen/aruco
 
   - eurex/orogen/leng
+  - eurex/orogen/leng_gliding
   - eurex/orogen/leng_control
   - eurex/orogen/marker_timeout
   - eurex/orogen/usbl_watchdog
