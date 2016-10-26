@@ -2,7 +2,7 @@ overrides:
 #    - image_processing/stereo:
 #      branch: visual_odometry_test
      - control/orogen/auv_control:
-       branch: command_injection
+       branch: master
      - control/orogen/rawControlCommandConverter:
        branch: eurex
      - slam/orogen/orientation_estimator:
@@ -22,9 +22,15 @@ overrides:
      - drivers/orogen/usbl_evologics:
        branch: eurex_testing
      - control/orogen/uwv_motion_model:
-       branch: leng
+       type: git
+       url: git@git.hb.dfki.de:dfki-control/orogen-uwv_motion_model.git
+       push_to: git@git.hb.dfki.de:dfki-control/orogen-uwv_motion_model.git
+       branch: master
      - control/uwv_dynamic_model:
-       branch: leng
+       type: git
+       url: git@git.hb.dfki.de:dfki-control/uwv_dynamic_model.git
+       push_to: git@git.hb.dfki.de:dfki-control/uwv_dynamic_model.git
+       branch: master
      - slam/mtk:
        branch: master
      - control/motor_controller:
