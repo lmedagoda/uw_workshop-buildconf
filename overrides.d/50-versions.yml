@@ -95,10 +95,6 @@
     branch: master
     tag: 
     commit: 0aada8eb7f0fe2ee4ff2c7de1bbb58ffa44e92e3
-- bundles/rock:
-    branch: master
-    tag: 
-    commit: 06cdc735ed3fbd8409517eb019f80dfe8f44e466
 - control/motor_controller:
     branch: master
     tag: 
@@ -328,14 +324,6 @@
     branch: master
     tag: 
     commit: 89d50f234aeb9e6a5d697344c3a8ef5b8364a3d9
-- gui/vizkit:
-    branch: master
-    tag: 
-    commit: bcfd535e6cecef972c9b3db9a6819b604082bad6
-- gui/vizkit3d:
-    branch: master
-    tag: 
-    commit: 46c1f1041072b531fbc3aa7896fcfdad8677fe98
 - gui/widget-efuse_board:
     branch: master
     tag: 

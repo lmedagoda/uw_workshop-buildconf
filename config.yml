@@ -9,14 +9,12 @@ operating_system:
   - tahr
   - default
 osdeps_mode: os,gem,pip
-ruby_executable: /usr/bin/ruby2.0
+ruby_executable: ruby
 autoproj_use_prerelease: false
 reused_autoproj_installations: []
 manifest_source:
   type: git
-  url: git@git.hb.dfki.de:eurex/buildconf.git
-  push_to: git@git.hb.dfki.de:eurex/buildconf.git
-  branch: master
+  url: git@github.com:lmedagoda/uw_workshop-buildconf.git
 prefix: install
 GITORIOUS: ssh,ssh
 GITORIOUS_ROOT: 'git@gitorious.org:'

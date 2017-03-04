@@ -22,8 +22,14 @@ overrides:
      - drivers/orogen/usbl_evologics:
        branch: eurex_testing
      - control/orogen/uwv_motion_model:
-       branch: leng
+       type: git
+       url: git@github.com:lmedagoda/orogen-uwv_motion_model.git
+       push_to: git@github.com:lmedagoda/orogen-uwv_motion_model.git
+       branch: workshop
      - control/uwv_dynamic_model:
+       type: git
+       url: git@github.com:lmedagoda/uwv_dynamic_model.git
+       push_to: git@github.com:lmedagoda/uwv_dynamic_model.git
        branch: leng
      - slam/mtk:
        branch: master

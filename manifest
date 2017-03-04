@@ -2,24 +2,25 @@ package_sets:
    - github: rock-core/package_set
    - github: rock-core/rock-package_set
    - github: rock-simulation/package_set
- #  - github: rock/package_set
-   #   - github: auv-avalon/package_set
-   - spacegit: cuslam/package_set
-   - spacegit: eurex/package_set
-   - spacegit: rock-dfki/package_set
-   - spacegit: compilerspeedup/package_set
-   - spacegit: dfki-control/package_set
+   #- github: rock/package_set
+   #- spacegit: cuslam/package_set
+   #- spacegit: eurex/package_set
+   #- spacegit: rock-dfki/package_set
+   #- spacegit: compilerspeedup/package_set
+   #- spacegit: dfki-control/package_set
    - github: auv-avalon/package_set
+   - github: Brazilian-Institute-of-Robotics/bir.flat_fish-package_set
+   - github: lmedagoda/uw_workshop-package_set
 
 
 
 layout:
   - rock.core
-  - leng_scripts
+#  - leng_scripts
 
   - gui/vizkit
   - gui/rock_widget_collection
-  - gui/widget-efuse_board
+#  - gui/widget-efuse_board
 
 #  - tools/image_preprocessing
 #  - image_processing/visual_odometry
@@ -29,11 +30,11 @@ layout:
 #  - slam/g2o
 #  - image_processing/orogen/aruco
 
-  - eurex/orogen/leng
-  - eurex/orogen/leng_gliding
-  - eurex/orogen/leng_control
-  - eurex/orogen/marker_timeout
-  - eurex/orogen/usbl_watchdog
+ # - eurex/orogen/leng
+ # - eurex/orogen/leng_gliding
+ # - eurex/orogen/leng_control
+ # - eurex/orogen/marker_timeout
+ # - eurex/orogen/usbl_watchdog
   
 #  - simulation/mars
 
