@@ -20,6 +20,10 @@ layout:
 
   - gui/vizkit
   - gui/rock_widget_collection
+  - control/uwv_dynamic_model
+  - control/orogen/motion_model_control
+  - control/orogen/uwv_motion_model
+  - control/auv_control
 #  - gui/widget-efuse_board
 
 #  - tools/image_preprocessing
