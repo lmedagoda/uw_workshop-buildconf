@@ -2,12 +2,14 @@ package_sets:
    - github: rock-core/package_set
    - github: rock-core/rock-package_set
    - github: rock-simulation/package_set
-#   - github: auv-avalon/package_set
+ #  - github: rock/package_set
+   #   - github: auv-avalon/package_set
    - spacegit: cuslam/package_set
    - spacegit: eurex/package_set
    - spacegit: rock-dfki/package_set
    - spacegit: compilerspeedup/package_set
    - spacegit: dfki-control/package_set
+   - github: auv-avalon/package_set
 
 
 
@@ -17,7 +19,7 @@ layout:
 
   - gui/vizkit
   - gui/rock_widget_collection
-  - gui/widget-efuse_board  
+  - gui/widget-efuse_board
 
 #  - tools/image_preprocessing
 #  - image_processing/visual_odometry
@@ -32,7 +34,10 @@ layout:
   - eurex/orogen/leng_control
   - eurex/orogen/marker_timeout
   - eurex/orogen/usbl_watchdog
+  
+#  - simulation/mars
 
 exclude_packages:
   - ocl
+  #- tools/rest_api
   

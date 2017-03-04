@@ -1,0 +1,463 @@
+---
+- pkg_set:github:/auv-avalon/package_set.git:
+    branch: master
+    tag: 
+    commit: f9f92157fd23abd0a125e452718971bfcacfb228
+- pkg_set:github:/orocos-toolchain/autoproj.git:
+    branch: master
+    tag: 
+    commit: 9cd52d6d3182a6d51176a213dc04be55cddf7a5c
+- pkg_set:github:/rock-core/package_set.git:
+    branch: master
+    tag: 
+    commit: 19da7f4fb6abf2275f7735a243fa96e28185a723
+- pkg_set:github:/rock-core/rock-package_set.git:
+    branch: master
+    tag: 
+    commit: 3e78384fc8f1e8fc0e64e25467b0b3ece5eba3d8
+- pkg_set:github:/rock-simulation/package_set.git:
+    branch: master
+    tag: 
+    commit: c612695f770c8d74e4683dcdeda0746b4b118b9b
+- pkg_set:spacegit:/compilerspeedup/package_set.git:
+    branch: master
+    tag: 
+    commit: f90a2f64ff85e672fa130150f04c07929f44c7c8
+- pkg_set:spacegit:/cuslam/package_set.git:
+    branch: master
+    tag: 
+    commit: fe9a85c1ba5e4811748bb41561c79adfd904605e
+- pkg_set:spacegit:/dfki-control/package_set.git:
+    branch: master
+    tag: 
+    commit: f266c5f86337a49cbd3a8e3f55dbda4b843d8ac9
+- pkg_set:spacegit:/eurex/package_set.git:
+    branch: master
+    tag: 
+    commit: 4c33cd3b3928142a17205dd62776214d2be5e5f7
+- pkg_set:spacegit:/rock-dfki/package_set.git:
+    branch: master
+    tag: 
+    commit: c9d50ef74558aae157864a29ec5a149d9ab90bfc
+- base/cmake:
+    branch: master
+    tag: 
+    commit: d17cead7a9e10bf861bde9819993a393665aab9d
+- base/console_bridge:
+    branch: master
+    tag: 
+    commit: c947d8b8b8d755a8ca7161909950cbb1c74b5095
+- base/logging:
+    branch: master
+    tag: 
+    commit: 860adb7495ef90af321c3e0041d441c8f648d3c6
+- base/numeric:
+    branch: master
+    tag: 
+    commit: 42560bb1307aee935ee2fe192d2b217148d26264
+- base/orogen/std:
+    branch: master
+    tag: 
+    commit: ba7de811e440c5512623947af2db5e4d90ae687d
+- base/orogen/types:
+    branch: master
+    tag: 
+    commit: d4f5cfc5ec2f15894f57b8b978ac811a7447ce29
+- base/scripts:
+    branch: master
+    tag: 
+    commit: 411d89daae3fff5bdf0e481738c231b7a1db7051
+- base/templates/bundle:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- base/templates/cmake_lib:
+    branch: master
+    tag: 
+    commit: c50873b10da17d151e82677cac5316af663f994c
+- base/templates/cmake_vizkit_widget:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- base/templates/doc:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- base/templates/ruby_lib:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- base/templates/vizkit3d_plugin:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- base/types:
+    branch: master
+    tag: 
+    commit: 0aada8eb7f0fe2ee4ff2c7de1bbb58ffa44e92e3
+- bundles/rock:
+    branch: master
+    tag: 
+    commit: 06cdc735ed3fbd8409517eb019f80dfe8f44e466
+- control/motor_controller:
+    branch: master
+    tag: 
+    commit: 23e49d2c57909f0352d6bc7e2b43cf8b006dc3d5
+- control/orogen/auv_control:
+    branch: command_injection
+    tag: 
+    commit: efc1924c704b461b851c57dfbc4a61727d81a3ad
+- control/orogen/uwv_motion_model:
+    branch: leng
+    tag: 
+    commit: fa037d10c8b4c8a597dc1e617b87a87ff0566cbe
+- control/uwv_dynamic_model:
+    branch: leng
+    tag: 
+    commit: 89618f00229740eb78ba9ccb3b59610e42bb3e3c
+- drivers/aggregator:
+    branch: master
+    tag: 
+    commit: 850727a045d77c2e7ce7d8085c12d6a18b5f1d6d
+- drivers/camera_interface:
+    branch: master
+    tag: 
+    commit: 4b58b209bb805a7a25b5c35326a5ee39728aab4c
+- drivers/camera_prosilica:
+    branch: master
+    tag: 
+    commit: 8ba6096ba7b2568569760b214dbc8192e37720c7
+- drivers/canbus:
+    branch: master
+    tag: 
+    commit: 76985b075fdd7b94de5923787912edbbe66d23ca
+- drivers/controldev:
+    branch: mc20
+    tag: 
+    commit: 5bb9606e967a9b767de42dee9fd7e519bccd12ed
+- drivers/dvl_seapilot:
+    branch: master
+    tag: 
+    commit: 48a6c2fea9ece006babffbbef9151704839deb97
+- drivers/dvl_teledyne:
+    branch: master
+    tag: 
+    commit: f5ebc2a5d0d90f2654abe5cf3fdb98f2bd8df59a
+- drivers/dynamixel:
+    branch: master
+    tag: 
+    commit: 3f2b34fa8c35d22379ce3596b3e5dbacecdb4849
+- drivers/efuse_board_eurex:
+    branch: master
+    tag: 
+    commit: 37e10f59082316986863a9b0030c6b7cb7325a73
+- drivers/imu_kvh_1750:
+    branch: master
+    tag: 
+    commit: f95d1139d9e33bd8ffbdb2aa2fa75ca2bd49b26d
+- drivers/iodrivers_base:
+    branch: master
+    tag: 
+    commit: afe55175f6c39394ef6f37969b2159a44206c24f
+- drivers/orogen/aggregator:
+    branch: master
+    tag: 
+    commit: afc5fe9ac1a2efd8e4456407de2bb55a1424f1ae
+- drivers/orogen/camera_base:
+    branch: master
+    tag: 
+    commit: 4364448481399d36a7f60db835442edd5e4e5eda
+- drivers/orogen/camera_prosilica:
+    branch: master
+    tag: 
+    commit: 2a040b190bf164357b903ccf15b94f9933d4fa02
+- drivers/orogen/canbus:
+    branch: master
+    tag: 
+    commit: 21c2e8268da88dcff115a8acc18c37bcf74d87c3
+- drivers/orogen/controldev:
+    branch: mc20
+    tag: 
+    commit: df4345aaf1c3538414cf52fd01a407977beb26bd
+- drivers/orogen/dvl_seapilot:
+    branch: master
+    tag: 
+    commit: c8e656c0f2aed9e6363752b397590fad9e09e128
+- drivers/orogen/efuse_board_eurex:
+    branch: master
+    tag: 
+    commit: 813029b2b982bcfb0cf0d6a8442907dfa02e64d9
+- drivers/orogen/imu_kvh_1750:
+    branch: master
+    tag: 
+    commit: 23f9e90cfc48e5a110b49586ec2ef8c68708aeda
+- drivers/orogen/iodrivers_base:
+    branch: master
+    tag: 
+    commit: b18999e376dd639ee3b4ba1fb7942178dada40f0
+- drivers/orogen/pressure_digiquartz:
+    branch: master
+    tag: 
+    commit: edded1892ab026ad5b68cdd2cad113f6cba5308e
+- drivers/orogen/sonar_tritech:
+    branch: master
+    tag: 
+    commit: d8a4ec98f4fd82cbd4934efa3dfd2bcd64cdbbb4
+- drivers/orogen/thruster_enitech:
+    branch: master
+    tag: 
+    commit: 61a57242b87644f64eafc46eeb651c758f9cc966
+- drivers/orogen/transformer:
+    branch: master
+    tag: 
+    commit: 3cb4144a30ab60c0ea2cb31fd78f0ad60a75c6d2
+- drivers/orogen/usbl_evologics:
+    branch: eurex_testing
+    tag: 
+    commit: 0be5b42eebc2b99ad892b04c2e59b5c133bed8ed
+- drivers/pressure_digiquartz:
+    branch: master
+    tag: 
+    commit: 306964b9c7ba45552e38af1b0715f52db722e6aa
+- drivers/sonar_tritech:
+    branch: master
+    tag: 
+    commit: a6cd6524986473a45513e9af8403e77d1e25e241
+- drivers/thruster_enitech:
+    branch: master
+    tag: 
+    commit: 1214c7cca89915c51ad9d5091193dc133a13be5a
+- drivers/transformer:
+    branch: master
+    tag: 
+    commit: cce50c388d733a30e28082026184ec34e50edabf
+- drivers/usbl_evologics:
+    branch: eurex_testing
+    tag: 
+    commit: 0c5898cd2c17618f0b890dca7ef2636e01157387
+- eurex/flasher_eurex:
+    branch: master
+    tag: 
+    commit: dc9244cb907eb8fba9a9daf53fb115893e0f276b
+- eurex/orogen/aruco_marker_conversion:
+    branch: master
+    tag: 
+    commit: 34f06d5b0a2b223b87c94c630b90419778bd4212
+- eurex/orogen/black_smoker_inspection:
+    branch: master
+    tag: 
+    commit: 8990dde2d7dd6fa5f845ca20acc43419483261da
+- eurex/orogen/file_transfer:
+    branch: master
+    tag: 
+    commit: 4e9a7de6c257a6b1043379388373b9c326c41d47
+- eurex/orogen/flasher_eurex:
+    branch: master
+    tag: 
+    commit: 9a430b6599b1a3127c5f5d2c8a7c03c8c1903c5b
+- eurex/orogen/glider_inspection:
+    branch: master
+    tag: 
+    commit: 4217fb1d46dcc9618d448079d76827131eccf2f7
+- eurex/orogen/leng:
+    branch: master
+    tag: 
+    commit: 71b75af0e06fbe75de238917a16501d2a0903e88
+- eurex/orogen/leng_control:
+    branch: master
+    tag: 
+    commit: 042f1b51be20a6dba9fac70d26f58316186b93e2
+- eurex/orogen/leng_docking:
+    branch: master
+    tag: 
+    commit: ecb2bcd52216da2724e63f905281117c39032956
+- eurex/orogen/leng_gliding:
+    branch: master
+    tag: 
+    commit: d4623383bdff6d1fdfdf29bcaca7e70ab1e6a476
+- eurex/orogen/leng_homing:
+    branch: master
+    tag: 
+    commit: 70968af4b9ef7ced3420dc8a2de816570e7fc8c6
+- eurex/orogen/marker_timeout:
+    branch: master
+    tag: 
+    commit: e6fa05448fd5203f89d2a2a77411b182f04bb4b0
+- eurex/orogen/mission_control:
+    branch: master
+    tag: 
+    commit: 40c55ae8ed82b6790a2cbdf06d12acb2fa7ca295
+- eurex/orogen/orientation_depth_correction:
+    branch: master
+    tag: 
+    commit: 2f98de6873050a6a7cb6a85bc564553525fcbd77
+- eurex/orogen/servos_leng:
+    branch: master
+    tag: 
+    commit: e236c9deaf02c0a33fb3acf205eddde2695fea65
+- eurex/orogen/snapshot:
+    branch: master
+    tag: 
+    commit: 9049795370ef0f50c79d78d5862ca62a03e027af
+- eurex/orogen/usbl_watchdog:
+    branch: master
+    tag: 
+    commit: cc2d0a9c27737127ccc7117276a8fe6e72fbca9c
+- eurex/orogen/velocity_provider:
+    branch: master
+    tag: 
+    commit: ff4dc8458801005e007c4f2f451a127a63f5927b
+- eurex/servos_leng:
+    branch: master
+    tag: 
+    commit: a44d94e5afa8fd8e972f1fafaf8569429765e07c
+- external/aruco:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://downloads.sourceforge.net/project/aruco/1.2.5/aruco-1.2.5.tgz
+- external/sisl:
+    branch: master
+    tag: 
+    commit: 8526f4182f75901feb0f962fddd6483fb3cf0596
+- gui/rock_webapp:
+    branch: master
+    tag: 
+    commit: aa46fc2f8769d587d9417edeea3c99225e707510
+- gui/rock_widget_collection:
+    branch: master
+    tag: 
+    commit: 89d50f234aeb9e6a5d697344c3a8ef5b8364a3d9
+- gui/vizkit:
+    branch: master
+    tag: 
+    commit: bcfd535e6cecef972c9b3db9a6819b604082bad6
+- gui/vizkit3d:
+    branch: master
+    tag: 
+    commit: 46c1f1041072b531fbc3aa7896fcfdad8677fe98
+- gui/widget-efuse_board:
+    branch: master
+    tag: 
+    commit: 48eaf36d76b5594cb9756d1d01e3db38ad4f0f6b
+- image_processing/orogen/aruco:
+    branch: master
+    tag: 
+    commit: dc6d2f61f3ea776fe48c77b2357904972571ebad
+- leng_scripts:
+    branch: master
+    tag: 
+    commit: 88c0dbcd481afc634b64aadb9449e2e123476b78
+- orogen:
+    branch: master
+    tag: 
+    commit: 59517aa8728980712f4a03cbe08b9034e240aac9
+- perception/apriltags:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: https://april.eecs.umich.edu/media/apriltag/apriltag-2015-03-18.tgz
+- perception/frame_helper:
+    branch: master
+    tag: 
+    commit: 29601bbaf122dbd53dede37a0c4830aa21474b05
+- perception/jpeg_conversion:
+    branch: master
+    tag: 
+    commit: 9156d1b531249b71217147d6b5c2a9a3ade795ff
+- perception/orogen/apriltags:
+    branch: master
+    tag: 
+    commit: 6a27e9661da6b6f685b09026a0e433423e943c7a
+- rtt:
+    branch: master
+    tag: 
+    commit: 1df3ad9acdd0f43536416270d7e5fad4e61746b3
+- rtt_typelib:
+    branch: master
+    tag: 
+    commit: c31b360f572b60227457c4e519ab6f48e4659e67
+- slam/mtk:
+    branch: master
+    tag: 
+    commit: 0fd26141fae5d49594aca3711b1da6ffcc6f6ebb
+- slam/orogen/orientation_estimator:
+    branch: simple_ikf_estimator
+    tag: 
+    commit: 52e215e9f108e38551b612fb6c6f559741dde5f7
+- slam/orogen/pose_estimation:
+    branch: master
+    tag: 
+    commit: beb677150b3addd796ebfd878e989b3e13328d67
+- slam/pose_estimation:
+    branch: master
+    tag: 
+    commit: eee74ba58baa2cfbfb27989a9255932938a3ce05
+- slam/quater_ikf:
+    branch: master
+    tag: 
+    commit: dad8763ee5272b1e4b8a41013f700bab3be50c03
+- tools/class_loader:
+    branch: indigo-devel
+    tag: 0.3.6
+    commit: 
+- tools/log_tools:
+    branch: master
+    tag: 
+    commit: 621fbaa43e2db35978d81a1d526665547295a5bb
+- tools/logger:
+    branch: master
+    tag: 
+    commit: d7ab07ed734c7618e265ebb76470712b9f28a152
+- tools/metaruby:
+    branch: master
+    tag: 
+    commit: dcbe5c8131272e5c87159c08282277cc55375406
+- tools/orocos.rb:
+    branch: master
+    tag: 
+    commit: 444c9271b88b6c2e45beb213b51dcba4b08f9d95
+- tools/orogen_metadata:
+    branch: master
+    tag: 
+    commit: bc808df068ab17ecb1e4e3a3f97d8d2d29e48b9a
+- tools/pocolog:
+    branch: master
+    tag: 
+    commit: 98eea06c9ac6d17680260c2e06bbb7503effb39b
+- tools/pocolog_cpp:
+    branch: master
+    tag: 
+    commit: 930f53192d426f9f25cb28436bdfb35173782629
+- tools/rest_api:
+    branch: master
+    tag: 
+    commit: 4300540db67402273b3fc70df91c4cc60c772cb2
+- tools/roby:
+    branch: master
+    tag: 
+    commit: 5c54d224b84e3a79844396fb9b55d2382868ba6a
+- tools/rubigen:
+    branch: master
+    tag: 
+    commit: 15a034f1d6872bea270618460b3039befd17aaca
+- tools/service_discovery:
+    branch: master
+    tag: 
+    commit: 829a0b325c89167d97ce021638f682cc49af2c39
+- tools/syskit:
+    branch: master
+    tag: 
+    commit: e1628c6f8c7eae5bd12772bb1b606b26e8da0bf2
+- tools/telemetry:
+    branch: master
+    tag: 
+    commit: a2f73f7227122c2f110893f145b594938865969c
+- typelib:
+    branch: master
+    tag: 
+    commit: e220595fa4cce756ee2517d1536ec04dcd915baf
+- utilrb:
+    branch: master
+    tag: 
+    commit: f4c6e8e1d315e12ab2b613baf2cc4ff26ff50933
