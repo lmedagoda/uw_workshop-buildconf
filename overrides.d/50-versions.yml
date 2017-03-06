@@ -420,7 +420,7 @@
 - tools/rest_api:
     branch: master
     tag: 
-    commit: 4300540db67402273b3fc70df91c4cc60c772cb2
+    commit: a001e0edafc7c02e9d32f6beb1bc90f6d1cf4aab
 - tools/roby:
     branch: master
     tag: 
