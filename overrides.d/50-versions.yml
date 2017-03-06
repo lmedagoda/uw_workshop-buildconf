@@ -100,9 +100,9 @@
     tag: 
     commit: 23e49d2c57909f0352d6bc7e2b43cf8b006dc3d5
 - control/orogen/auv_control:
-    branch: command_injection
+    branch: master
     tag: 
-    commit: efc1924c704b461b851c57dfbc4a61727d81a3ad
+    commit: 32ad9ec36476f161f490203b8f0ccf00b704bce5
 - control/orogen/uwv_motion_model:
     branch: leng
     tag: 
