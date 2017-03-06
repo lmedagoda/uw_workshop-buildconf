@@ -2,7 +2,8 @@ overrides:
 #    - image_processing/stereo:
 #      branch: visual_odometry_test
      - control/orogen/auv_control:
-       branch: command_injection
+       branch: master
+       commit: 32ad9ec36476f161f490203b8f0ccf00b704bce5
      - control/orogen/rawControlCommandConverter:
        branch: eurex
      - slam/orogen/orientation_estimator:
