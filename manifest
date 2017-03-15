@@ -3,7 +3,7 @@ package_sets:
    - github: rock-core/rock-package_set
    - github: rock-simulation/package_set
    - github: auv-avalon/package_set
-   - github: Brazilian-Institute-of-Robotics/bir.flat_fish-package_set
+#   - github: Brazilian-Institute-of-Robotics/bir.flat_fish-package_set
    - github: lmedagoda/uw_workshop-package_set
 
 
