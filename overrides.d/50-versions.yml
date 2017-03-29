@@ -107,10 +107,6 @@
     branch: leng
     tag: 
     commit: fa037d10c8b4c8a597dc1e617b87a87ff0566cbe
-- control/uwv_dynamic_model:
-    branch: leng
-    tag: 
-    commit: 89618f00229740eb78ba9ccb3b59610e42bb3e3c
 - drivers/aggregator:
     branch: master
     tag: 
